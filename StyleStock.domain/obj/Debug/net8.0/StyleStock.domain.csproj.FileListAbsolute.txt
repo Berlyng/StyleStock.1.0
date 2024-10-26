@@ -1,0 +1,15 @@
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\bin\Debug\net8.0\StyleStock.domain.deps.json
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\bin\Debug\net8.0\StyleStock.domain.runtimeconfig.json
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\bin\Debug\net8.0\StyleStock.domain.dll
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\bin\Debug\net8.0\StyleStock.domain.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.sourcelink.json
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.dll
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\refint\StyleStock.domain.dll
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\StyleStock.domain.genruntimeconfig.cache
+C:\Users\Administrador\source\repos\StyleStock.1.0\StyleStock.domain\obj\Debug\net8.0\ref\StyleStock.domain.dll

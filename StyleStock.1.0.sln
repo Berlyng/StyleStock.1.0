@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleStock.api", "StyleStock.api\StyleStock.api.csproj", "{7ADA7A2C-DBBF-4084-8767-BEF3B5E18D75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleStock.web", "StyleStock.web\StyleStock.web.csproj", "{999D0E70-740B-4878-8C54-7750E02DA457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StyleStock.domain", "StyleStock.domain\StyleStock.domain.csproj", "{E5E2EB14-4732-4F52-A145-1BF6D0CA9F39}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7ADA7A2C-DBBF-4084-8767-BEF3B5E18D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ADA7A2C-DBBF-4084-8767-BEF3B5E18D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ADA7A2C-DBBF-4084-8767-BEF3B5E18D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ADA7A2C-DBBF-4084-8767-BEF3B5E18D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999D0E70-740B-4878-8C54-7750E02DA457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999D0E70-740B-4878-8C54-7750E02DA457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999D0E70-740B-4878-8C54-7750E02DA457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999D0E70-740B-4878-8C54-7750E02DA457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E2EB14-4732-4F52-A145-1BF6D0CA9F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E2EB14-4732-4F52-A145-1BF6D0CA9F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E2EB14-4732-4F52-A145-1BF6D0CA9F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E2EB14-4732-4F52-A145-1BF6D0CA9F39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
