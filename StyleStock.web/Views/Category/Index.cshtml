@@ -4,8 +4,8 @@
 	ViewData["Title"] = " Lista de Categorias";
 }
 
-<div class="row">
-	<div class="col-8">
+<div class="row justify-content-center">
+	<div class="col-10">
 		<h1 class="text-black text-center">Lista de Categorias</h1>
 		<a class="btn btn-primary mb-3" asp-controller="Category" asp-action="Create">Nueva Categoria</a>
 		<table class="table table-bordered">
@@ -14,6 +14,7 @@
 					<th scope="col">ID</th>
 					<th scope="col">Nombre De Categoria</th>
 					<th scope="col">Descripcion</th>
+					<th scope="col">Acciones</th>
 				</tr>
 			</thead>
 			@foreach(var item in Model)
@@ -28,9 +29,7 @@
 							asp-action="Update"
 							asp-route-id ="@item.CategoryId"
 							class="btn btn-success mb-3">Editar</a>
-						</td>
 
-						<td>
 							<a asp-controller="Category"
 							   asp-action="Delete"
 							   asp-route-id="@item.CategoryId"
