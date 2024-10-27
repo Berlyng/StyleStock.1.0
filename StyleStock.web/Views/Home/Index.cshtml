@@ -1,8 +1,46 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Main Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+	<h1 class="text-center mb-4">Welcome to the Inventory Management System</h1>
+
+
+	<div class="row justify-content-center">
+	
+		<div class="col-md-4 mb-3">
+			<div class="card shadow-sm">
+				<img src="~/Image/Clientes.jpg" class="card-img-top" alt="Customer Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Customer</h5>
+					<p class="card-text">Manage customer details and information.</p>
+					<a href="/Customer" class="btn btn-primary">Go to Customer</a>
+				</div>
+			</div>
+		</div>
+
+	
+		<div class="col-md-4 mb-3">
+			<div class="card shadow-sm">
+				<img src="~/Image/Categoria.jpg" class="card-img-top" alt="Customer Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Category</h5>
+					<p class="card-text">Manage product categories.</p>
+					<a href="/Category" class="btn btn-primary">Go to Category</a>
+				</div>
+			</div>
+		</div>
+
+	
+		<div class="col-md-4 mb-3">
+			<div class="card shadow-sm">
+				<div class="card-body text-center">
+					<h5 class="card-title">Products</h5>
+					<p class="card-text">Manage products and inventory.</p>
+					<a href="/Products" class="btn btn-primary">Go to Products</a>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
+

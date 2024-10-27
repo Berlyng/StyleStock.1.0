@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\StyleStock.web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.0\\StyleStock.web\\wwwroot\\Image\\Categoria.jpg",
+      "PackagePath": "staticwebassets\\Image\\Categoria.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.0\\StyleStock.web\\wwwroot\\Image\\Clientes.jpg",
+      "PackagePath": "staticwebassets\\Image\\Clientes.jpg"
+    },
+    {
       "Id": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.0\\StyleStock.web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
