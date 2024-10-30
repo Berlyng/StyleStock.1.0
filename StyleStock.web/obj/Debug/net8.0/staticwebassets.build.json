@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oLuZPMAQhh5Yep0HELQlS5YU7xwAsucaU+CYluEBSQo=",
+  "Hash": "qGaRLJRdLUkpJKoYZSyAqn+xML5gZ6QvAZyxH+ymm7g=",
   "Source": "StyleStock.web",
   "BasePath": "_content/StyleStock.web",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\Designer.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.0\\StyleStock.web\\wwwroot\\Image\\Productos.jpg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.0\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Productos.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Productos.jpg"
     },
     {
       "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.0\\StyleStock.web\\wwwroot\\js\\site.js",

@@ -27,3 +27,31 @@ body {
     border-radius: 50%; 
     object-fit: cover; 
 }
+
+.sidebar {
+    height: 100vh; 
+    position: sticky;
+    top: 0; /
+}
+
+.sidebar-heading {
+    padding: 0.5rem 1rem; 
+}
+
+.nav-link {
+    color: #000; 
+}
+
+ .nav-link:hover {
+   background-color: #e2e2e2; 
+  }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.d-flex.align-items-stretch {
+    display: flex;
+    align-items: stretch;
+}
