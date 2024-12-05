@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StyleStock.common\StyleStock.common.csproj" />
+    <ProjectReference Include="..\StyleStock.domain\StyleStock.domain.csproj" />
+    <ProjectReference Include="..\StyleStock.persistence\StyleStock.persistence.csproj" />
+  </ItemGroup>
+
+</Project>
