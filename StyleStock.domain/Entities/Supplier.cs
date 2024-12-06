@@ -6,7 +6,6 @@ namespace StyleStock.domain.Entities;
 
 public partial class Supplier:BaseEntity
 {
-    public int SupplierId { get; set; }
 
     public string Name { get; set; } = null!;
 

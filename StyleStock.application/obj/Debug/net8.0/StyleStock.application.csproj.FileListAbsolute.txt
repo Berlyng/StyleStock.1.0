@@ -21,3 +21,4 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\De
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.csproj.AssemblyReference.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleSto.E6F767D6.Up2Date
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.genruntimeconfig.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.sourcelink.json

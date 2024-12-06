@@ -15,3 +15,4 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.persistence\bin\De
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.persistence\obj\Debug\net8.0\StyleStock.persistence.csproj.AssemblyReference.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.persistence\obj\Debug\net8.0\StyleSto.7AED9677.Up2Date
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.persistence\obj\Debug\net8.0\StyleStock.persistence.genruntimeconfig.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.persistence\obj\Debug\net8.0\StyleStock.persistence.sourcelink.json

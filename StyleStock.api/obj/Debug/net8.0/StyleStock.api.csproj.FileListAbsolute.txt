@@ -189,3 +189,4 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.api\bin\Debug\net8
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.api\bin\Debug\net8.0\StyleStock.common.pdb
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.api\bin\Debug\net8.0\StyleStock.infrastructure.pdb
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.api\bin\Debug\net8.0\StyleStock.persistence.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.api\obj\Debug\net8.0\StyleStock.api.sourcelink.json

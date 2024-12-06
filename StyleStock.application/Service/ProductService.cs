@@ -134,7 +134,7 @@ namespace StyleStock.application.Service
 				var product = await _productRepository.GetByIdAsync(id);
 				if (product == null)
 				{
-					throw new Exception($"Cliente con ID {id} no encontrada.");
+					throw new Exception($"Producto con ID {id} no encontrada.");
 				}
 
 				product.Name = productDto.Name;

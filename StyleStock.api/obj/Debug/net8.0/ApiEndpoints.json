@@ -252,6 +252,173 @@
     "EndpointName": "UpdateProduct"
   },
   {
+    "ContainingType": "StyleStock.api.Controllers.SupplierController",
+    "Method": "AddSupplier",
+    "RelativePath": "api/Supplier/AddSupplier/AddSupplier",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "supplierDto",
+        "Type": "StyleStock.common.DTOS.CreateSupplierDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SupplierController",
+    "Method": "DeleteSupplier",
+    "RelativePath": "api/Supplier/DeleteSupplier/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteSupplier"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SupplierController",
+    "Method": "GetAllSupplier",
+    "RelativePath": "api/Supplier/GetAllSupplier",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllSupplier"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SupplierController",
+    "Method": "GetAllSupplierById",
+    "RelativePath": "api/Supplier/GetAllSupplierById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllSupplierById"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SupplierController",
+    "Method": "UpdateSupplier",
+    "RelativePath": "api/Supplier/UpdateSupplier/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "supplierDto",
+        "Type": "StyleStock.common.DTOS.UpdateSupplierDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateSupplier"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "api/User/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "StyleStock.common.DTOS.CreateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddUser"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/DeleteUser/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteUser"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.UserController",
+    "Method": "GetAllUser",
+    "RelativePath": "api/User/GetAllUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllUser"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.UserController",
+    "Method": "GetUserById",
+    "RelativePath": "api/User/GetUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetUserById"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/User/UpdateUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userDto",
+        "Type": "StyleStock.common.DTOS.UpdateUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateUser"
+  },
+  {
     "ContainingType": "StyleStock.api.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
