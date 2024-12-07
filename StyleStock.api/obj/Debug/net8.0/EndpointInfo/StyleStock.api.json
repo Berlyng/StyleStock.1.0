@@ -1496,6 +1496,10 @@
       "UpdateCategoryDTO": {
         "type": "object",
         "properties": {
+          "categoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "name": {
             "type": "string",
             "nullable": true

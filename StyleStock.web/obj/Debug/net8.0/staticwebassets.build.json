@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HeYJNY6Wc+1/blYhUKNhkiT4iurRUK7B41PwcgGRGY0=",
+  "Hash": "ZipFMF3NT0wQlFJJdXCYdY+Km63CYvMJeTV0xJLicrM=",
   "Source": "StyleStock.web",
   "BasePath": "_content/StyleStock.web",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "c2tiyv64ts",
-      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
+      "Fingerprint": "zqzerew4bp",
+      "Integrity": "hWDSyGAcCTTem73HifklJ9wqkAz96zX0lPfoGLUkCgA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +99,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Categoria.jpg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Categoria#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "foa72l72ny",
+      "Integrity": "MShTxK8oPJ22tdZdV2ITYxLj8H9xfJ63wgBSQjvfz5k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Categoria.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Clientes.jpg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Clientes#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ih2xilzy6b",
+      "Integrity": "Kv81sEHaVgOrUMQq7BmEjXdMNDO857saHc3haNGl+/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Clientes.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Designer.jpeg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Designer#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kefde0g9kz",
+      "Integrity": "PJ0hJcO+QqpOLjHru4kBcDs9ieBlR7F7ZCoLtU/Z6xA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Designer.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Pedidos.jpeg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Pedidos#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l2af557erd",
+      "Integrity": "Q9bPQLrzTe/569tAzpYkbpO8MNXjLXzoQmXZvf5p8Js=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Pedidos.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Productos.jpg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Productos#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cf2vw566xq",
+      "Integrity": "+K3HdkIulbnRS4BvtB+NQXS7zww+wxV+SxcYptHALs8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Productos.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\suplidores.jpeg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/suplidores#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0my92l95xm",
+      "Integrity": "eJ1Bx/m0+8JheDU9GE4mhs0rPIbcGXFkYvxHv8GMpn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\suplidores.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Usuarios.jpg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Usuarios#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pjjnadvsmr",
+      "Integrity": "S68gzreFM53XoTNf6QqlBNcrU9/LgVoDXBQLPBOu9L8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Usuarios.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Ventas.jpg",
+      "SourceId": "StyleStock.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\",
+      "BasePath": "_content/StyleStock.web",
+      "RelativePath": "Image/Ventas#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aeef16k71g",
+      "Integrity": "XpC5ULEFlxH4uPFGXVs6GlITjBatFyGoNw0zDlDm/+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Ventas.jpg"
     },
     {
       "Identity": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\js\\site.js",
@@ -1321,51 +1489,6 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 00:42:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "c2tiyv64ts"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1376,7 +1499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "873"
         },
         {
           "Name": "Content-Type",
@@ -1384,11 +1507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+          "Value": "\"hWDSyGAcCTTem73HifklJ9wqkAz96zX0lPfoGLUkCgA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 04 Dec 2024 00:42:53 GMT"
+          "Value": "Sat, 07 Dec 2024 18:50:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1398,7 +1521,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+          "Value": "sha256-hWDSyGAcCTTem73HifklJ9wqkAz96zX0lPfoGLUkCgA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zqzerew4bp.css",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "873"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hWDSyGAcCTTem73HifklJ9wqkAz96zX0lPfoGLUkCgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 18:50:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zqzerew4bp"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hWDSyGAcCTTem73HifklJ9wqkAz96zX0lPfoGLUkCgA="
         }
       ]
     },
@@ -1481,6 +1649,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Categoria.foa72l72ny.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Categoria.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MShTxK8oPJ22tdZdV2ITYxLj8H9xfJ63wgBSQjvfz5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Oct 2024 17:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "foa72l72ny"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Categoria.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MShTxK8oPJ22tdZdV2ITYxLj8H9xfJ63wgBSQjvfz5k="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Categoria.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Categoria.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88649"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MShTxK8oPJ22tdZdV2ITYxLj8H9xfJ63wgBSQjvfz5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Oct 2024 17:27:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MShTxK8oPJ22tdZdV2ITYxLj8H9xfJ63wgBSQjvfz5k="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Clientes.ih2xilzy6b.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Clientes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kv81sEHaVgOrUMQq7BmEjXdMNDO857saHc3haNGl+/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Oct 2024 17:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ih2xilzy6b"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Clientes.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kv81sEHaVgOrUMQq7BmEjXdMNDO857saHc3haNGl+/s="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Clientes.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Clientes.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kv81sEHaVgOrUMQq7BmEjXdMNDO857saHc3haNGl+/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Oct 2024 17:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kv81sEHaVgOrUMQq7BmEjXdMNDO857saHc3haNGl+/s="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Designer.jpeg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Designer.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJ0hJcO+QqpOLjHru4kBcDs9ieBlR7F7ZCoLtU/Z6xA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Oct 2024 02:43:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJ0hJcO+QqpOLjHru4kBcDs9ieBlR7F7ZCoLtU/Z6xA="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Designer.kefde0g9kz.jpeg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Designer.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86052"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJ0hJcO+QqpOLjHru4kBcDs9ieBlR7F7ZCoLtU/Z6xA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Oct 2024 02:43:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kefde0g9kz"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Designer.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJ0hJcO+QqpOLjHru4kBcDs9ieBlR7F7ZCoLtU/Z6xA="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Pedidos.jpeg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Pedidos.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q9bPQLrzTe/569tAzpYkbpO8MNXjLXzoQmXZvf5p8Js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 18:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9bPQLrzTe/569tAzpYkbpO8MNXjLXzoQmXZvf5p8Js="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Pedidos.l2af557erd.jpeg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Pedidos.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8161"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q9bPQLrzTe/569tAzpYkbpO8MNXjLXzoQmXZvf5p8Js=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 18:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l2af557erd"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Pedidos.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q9bPQLrzTe/569tAzpYkbpO8MNXjLXzoQmXZvf5p8Js="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Productos.cf2vw566xq.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Productos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+K3HdkIulbnRS4BvtB+NQXS7zww+wxV+SxcYptHALs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Oct 2024 00:17:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cf2vw566xq"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Productos.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+K3HdkIulbnRS4BvtB+NQXS7zww+wxV+SxcYptHALs8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Productos.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Productos.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97859"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+K3HdkIulbnRS4BvtB+NQXS7zww+wxV+SxcYptHALs8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 30 Oct 2024 00:17:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+K3HdkIulbnRS4BvtB+NQXS7zww+wxV+SxcYptHALs8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/suplidores.0my92l95xm.jpeg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\suplidores.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eJ1Bx/m0+8JheDU9GE4mhs0rPIbcGXFkYvxHv8GMpn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:11:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0my92l95xm"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/suplidores.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eJ1Bx/m0+8JheDU9GE4mhs0rPIbcGXFkYvxHv8GMpn8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/suplidores.jpeg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\suplidores.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eJ1Bx/m0+8JheDU9GE4mhs0rPIbcGXFkYvxHv8GMpn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:11:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eJ1Bx/m0+8JheDU9GE4mhs0rPIbcGXFkYvxHv8GMpn8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Usuarios.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Usuarios.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S68gzreFM53XoTNf6QqlBNcrU9/LgVoDXBQLPBOu9L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:14:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S68gzreFM53XoTNf6QqlBNcrU9/LgVoDXBQLPBOu9L8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Usuarios.pjjnadvsmr.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Usuarios.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20495"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S68gzreFM53XoTNf6QqlBNcrU9/LgVoDXBQLPBOu9L8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:14:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pjjnadvsmr"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Usuarios.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S68gzreFM53XoTNf6QqlBNcrU9/LgVoDXBQLPBOu9L8="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Ventas.aeef16k71g.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Ventas.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpC5ULEFlxH4uPFGXVs6GlITjBatFyGoNw0zDlDm/+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:01:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aeef16k71g"
+        },
+        {
+          "Name": "label",
+          "Value": "Image/Ventas.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpC5ULEFlxH4uPFGXVs6GlITjBatFyGoNw0zDlDm/+U="
+        }
+      ]
+    },
+    {
+      "Route": "Image/Ventas.jpg",
+      "AssetFile": "C:\\Users\\Administrador\\source\\repos\\StyleStock.1.1\\StyleStock.web\\wwwroot\\Image\\Ventas.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XpC5ULEFlxH4uPFGXVs6GlITjBatFyGoNw0zDlDm/+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Dec 2024 19:01:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XpC5ULEFlxH4uPFGXVs6GlITjBatFyGoNw0zDlDm/+U="
         }
       ]
     },
@@ -6263,7 +7087,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 18:00:55 GMT"
+          "Value": "Sat, 07 Dec 2024 19:52:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6300,7 +7124,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 18:00:55 GMT"
+          "Value": "Sat, 07 Dec 2024 19:52:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6345,7 +7169,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 18:00:55 GMT"
+          "Value": "Sat, 07 Dec 2024 19:52:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6390,7 +7214,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 07 Dec 2024 18:00:55 GMT"
+          "Value": "Sat, 07 Dec 2024 19:52:33 GMT"
         },
         {
           "Name": "Cache-Control",

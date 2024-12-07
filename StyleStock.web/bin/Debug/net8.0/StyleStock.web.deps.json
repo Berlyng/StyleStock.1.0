@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "StyleStock.web/1.0.0": {
+        "dependencies": {
+          "StyleStock.common": "1.0.0"
+        },
         "runtime": {
           "StyleStock.web.dll": {}
+        }
+      },
+      "StyleStock.common/1.0.0": {
+        "runtime": {
+          "StyleStock.common.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "StyleStock.web/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StyleStock.common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

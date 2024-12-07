@@ -33,3 +33,7 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.genruntimeconfig.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\ref\StyleStock.web.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.sourcelink.json
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.common.dll
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.common.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleSto.7677E078.Up2Date

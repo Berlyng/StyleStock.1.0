@@ -1,8 +1,93 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+	ViewData["Title"] = "Main Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+	<h1 class="text-center mb-4">Bienvenidos al Sistema de Gestion de StyleStock</h1>
+
+
+	<div class="row justify-content-center">
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/Clientes.jpg" class="card-img-top" alt="Customer Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Clientes</h5>
+					<p class="card-text">Gestionar clientes.</p>
+					<a href="/Customer" class="btn btn-primary">ir a Clientes</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/Categoria.jpg" class="card-img-top" alt="Customer Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Categoria</h5>
+					<p class="card-text">Gestionar Categoria de Productos.</p>
+					<a href="/Category" class="btn btn-primary">ir a Categoria</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/Productos.jpg" class="card-img-top" alt="Customer Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Productos</h5>
+					<p class="card-text">Gestionar productos e inventarios.</p>
+					<a href="/Products" class="btn btn-primary">Ir a Productos</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/Pedidos.jpeg" class="card-img-top" alt="Purchase Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Pedidos</h5>
+					<p class="card-text">Gestionar los pedidos.</p>
+					<a href="/Purchase" class="btn btn-primary">Ir a Pedidos</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/Ventas.jpg" class="card-img-top" alt="Sales Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Ventas</h5>
+					<p class="card-text">Gestionar las Ventas.</p>
+					<a href="/Sale" class="btn btn-primary">Ir a Ventas</a>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/suplidores.jpeg" class="card-img-top" alt="Súppliers Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Suplidores</h5>
+					<p class="card-text">Gestionar proveedores.</p>
+					<a href="/Supplier" class="btn btn-primary">Ir a Suplidores</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4 mb-3 d-flex align-items-stretch">
+			<div class="card shadow-sm">
+				<img src="~/Image/Usuarios.jpg" class="card-img-top" alt="Users Image">
+				<div class="card-body text-center">
+					<h5 class="card-title">Usuarios</h5>
+					<p class="card-text">Gestionar los usuarios.</p>
+					<a href="/User" class="btn btn-primary">Ir a Usuarios</a>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
 </div>

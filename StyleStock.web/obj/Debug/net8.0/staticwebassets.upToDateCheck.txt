@@ -1,5 +1,13 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Image\Categoria.jpg
+wwwroot\Image\Clientes.jpg
+wwwroot\Image\Designer.jpeg
+wwwroot\Image\Pedidos.jpeg
+wwwroot\Image\Productos.jpg
+wwwroot\Image\suplidores.jpeg
+wwwroot\Image\Usuarios.jpg
+wwwroot\Image\Ventas.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
