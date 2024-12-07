@@ -28,6 +28,15 @@ builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 builder.Services.AddScoped<ISupplierService, SupplierService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IPurchaseRepository, PurchaseRepository>();
+builder.Services.AddScoped<IPurchaseService, PurchaseService>();
+builder.Services.AddScoped<IPurchaseDetailService, PurchaseDetailService>();
+builder.Services.AddScoped<IPurchaseDetailRepository, PurchaseDetailRepository>();
+builder.Services.AddScoped<ISaleRepository, SaleRepository>();
+builder.Services.AddScoped<ISaleService, SaleService>();
+builder.Services.AddScoped<ISalesDetailRepository, SalesDetailRepository>();
+builder.Services.AddScoped<ISalesDetailService, SalesDetailService>();
+
 
 
 

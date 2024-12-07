@@ -5,8 +5,8 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\n
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.AssemblyInfoInputs.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.AssemblyInfo.cs
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.sourcelink.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\refint\StyleStock.common.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.pdb
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\ref\StyleStock.common.dll
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.common\obj\Debug\net8.0\StyleStock.common.sourcelink.json

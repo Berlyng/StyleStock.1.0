@@ -110,7 +110,7 @@ public partial class StyleStockContext : DbContext
 
         modelBuilder.Entity<PurchaseDetail>(entity =>
         {
-            entity.HasKey(e => e.DetailId);
+            entity.HasKey(e => e.Id);
 
             entity.Property(e => e.Id).HasColumnName("DetailID");
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
@@ -150,7 +150,7 @@ public partial class StyleStockContext : DbContext
 
         modelBuilder.Entity<SalesDetail>(entity =>
         {
-            entity.HasKey(e => e.DetailId);
+            entity.HasKey(e => e.Id);
 
             entity.Property(e => e.Id).HasColumnName("DetailID");
             entity.Property(e => e.ProductId).HasColumnName("ProductID");

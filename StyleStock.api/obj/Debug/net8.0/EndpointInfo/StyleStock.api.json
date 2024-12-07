@@ -413,6 +413,550 @@
         }
       }
     },
+    "/api/Purchase/GetAllPurchase": {
+      "get": {
+        "tags": [
+          "Purchase"
+        ],
+        "operationId": "GetAllPurchase",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Purchase/GetPurchaseById/{id}": {
+      "get": {
+        "tags": [
+          "Purchase"
+        ],
+        "operationId": "GetPurchaseById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Purchase/AddPurchase": {
+      "post": {
+        "tags": [
+          "Purchase"
+        ],
+        "operationId": "AddPurchase",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePurchaseDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePurchaseDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePurchaseDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Purchase/UpdatePurchase/{id}": {
+      "put": {
+        "tags": [
+          "Purchase"
+        ],
+        "operationId": "UpdatePurchase",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePurchaseDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePurchaseDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePurchaseDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Purchase/DeletePurchase/{id}": {
+      "delete": {
+        "tags": [
+          "Purchase"
+        ],
+        "operationId": "DeletePurchase",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PurchaseDetail/GetAllPurchaseDetail": {
+      "get": {
+        "tags": [
+          "PurchaseDetail"
+        ],
+        "operationId": "GetAllPurchaseDetail",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PurchaseDetail/GetPurchaseDetailById/{id}": {
+      "get": {
+        "tags": [
+          "PurchaseDetail"
+        ],
+        "operationId": "GetPurchaseDetailById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PurchaseDetail/AddPurchaseDetail": {
+      "post": {
+        "tags": [
+          "PurchaseDetail"
+        ],
+        "operationId": "AddPurchaseDetail",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePurchaseDetailDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePurchaseDetailDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreatePurchaseDetailDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PurchaseDetail/UpdatePurchaseDetail/{id}": {
+      "put": {
+        "tags": [
+          "PurchaseDetail"
+        ],
+        "operationId": "UpdatePurchaseDetail",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePurchaseDetailDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePurchaseDetailDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePurchaseDetailDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/PurchaseDetail/DeletePurchaseDetail/{id}": {
+      "delete": {
+        "tags": [
+          "PurchaseDetail"
+        ],
+        "operationId": "DeletePurchaseDetail",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sale/GetAllSale": {
+      "get": {
+        "tags": [
+          "Sale"
+        ],
+        "operationId": "GetAllSale",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sale/GetSaleById/{id}": {
+      "get": {
+        "tags": [
+          "Sale"
+        ],
+        "operationId": "GetSaleById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sale/AddSale": {
+      "post": {
+        "tags": [
+          "Sale"
+        ],
+        "operationId": "AddSale",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSaleDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSaleDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSaleDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sale/UpdateSale/{id}": {
+      "put": {
+        "tags": [
+          "Sale"
+        ],
+        "operationId": "UpdateSale",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSaleDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSaleDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSaleDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Sale/DeleteSale/{id}": {
+      "delete": {
+        "tags": [
+          "Sale"
+        ],
+        "operationId": "DeleteSale",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SalesDetail/GetAllSalesDetail": {
+      "get": {
+        "tags": [
+          "SalesDetail"
+        ],
+        "operationId": "GetAllSalesDetail",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SalesDetail/GetSalesDetailById/{id}": {
+      "get": {
+        "tags": [
+          "SalesDetail"
+        ],
+        "operationId": "GetSalesDetailById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SalesDetail/AddSaleDetail": {
+      "post": {
+        "tags": [
+          "SalesDetail"
+        ],
+        "operationId": "AddSaleDetail",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSalesDetailDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSalesDetailDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateSalesDetailDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SalesDetail/UpdateSaleDetail/{id}": {
+      "put": {
+        "tags": [
+          "SalesDetail"
+        ],
+        "operationId": "UpdateSaleDetail",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSalesDetailDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSalesDetailDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateSalesDetailDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/SalesDetail/DeleteSaleDetail/{id}": {
+      "delete": {
+        "tags": [
+          "SalesDetail"
+        ],
+        "operationId": "DeleteSaleDetail",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Supplier/GetAllSupplier": {
       "get": {
         "tags": [
@@ -727,11 +1271,14 @@
   "components": {
     "schemas": {
       "CreateCategoryDTO": {
+        "required": [
+          "name"
+        ],
         "type": "object",
         "properties": {
           "name": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "description": {
             "type": "string",
@@ -741,6 +1288,9 @@
         "additionalProperties": false
       },
       "CreateCustomerDTO": {
+        "required": [
+          "email"
+        ],
         "type": "object",
         "properties": {
           "firstName": {
@@ -752,8 +1302,8 @@
             "nullable": true
           },
           "email": {
-            "type": "string",
-            "nullable": true
+            "minLength": 1,
+            "type": "string"
           },
           "phone": {
             "type": "string",
@@ -763,6 +1313,9 @@
         "additionalProperties": false
       },
       "CreateProductDTO": {
+        "required": [
+          "categoryId"
+        ],
         "type": "object",
         "properties": {
           "name": {
@@ -796,6 +1349,98 @@
           "entryDate": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreatePurchaseDTO": {
+        "required": [
+          "supplierId",
+          "userId"
+        ],
+        "type": "object",
+        "properties": {
+          "purchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "supplierId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreatePurchaseDetailDTO": {
+        "required": [
+          "productId",
+          "purchaseId"
+        ],
+        "type": "object",
+        "properties": {
+          "purchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateSaleDTO": {
+        "type": "object",
+        "properties": {
+          "saleDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "customerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateSalesDetailDTO": {
+        "type": "object",
+        "properties": {
+          "saleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "subTotal": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false
@@ -918,6 +1563,101 @@
           "entryDate": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePurchaseDTO": {
+        "type": "object",
+        "properties": {
+          "purchaseDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "supplierId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UpdatePurchaseDetailDTO"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePurchaseDetailDTO": {
+        "type": "object",
+        "properties": {
+          "detailId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "purchaseId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateSaleDTO": {
+        "type": "object",
+        "properties": {
+          "saleDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "customerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateSalesDetailDTO": {
+        "type": "object",
+        "properties": {
+          "saleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "unitPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "subTotal": {
+            "type": "number",
+            "format": "double"
           }
         },
         "additionalProperties": false

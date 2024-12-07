@@ -252,6 +252,342 @@
     "EndpointName": "UpdateProduct"
   },
   {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseController",
+    "Method": "AddPurchase",
+    "RelativePath": "api/Purchase/AddPurchase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "purchaseDto",
+        "Type": "StyleStock.common.DTOS.CreatePurchaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddPurchase"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseController",
+    "Method": "DeletePurchase",
+    "RelativePath": "api/Purchase/DeletePurchase/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeletePurchase"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseController",
+    "Method": "GetAllPurchase",
+    "RelativePath": "api/Purchase/GetAllPurchase",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllPurchase"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseController",
+    "Method": "GetPurchaseById",
+    "RelativePath": "api/Purchase/GetPurchaseById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetPurchaseById"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseController",
+    "Method": "UpdatePurchase",
+    "RelativePath": "api/Purchase/UpdatePurchase/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "purchaseDto",
+        "Type": "StyleStock.common.DTOS.UpdatePurchaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdatePurchase"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseDetailController",
+    "Method": "AddPurchaseDetail",
+    "RelativePath": "api/PurchaseDetail/AddPurchaseDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailDto",
+        "Type": "StyleStock.common.DTOS.CreatePurchaseDetailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddPurchaseDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseDetailController",
+    "Method": "DeletePurchaseDetail",
+    "RelativePath": "api/PurchaseDetail/DeletePurchaseDetail/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeletePurchaseDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseDetailController",
+    "Method": "GetAllPurchaseDetail",
+    "RelativePath": "api/PurchaseDetail/GetAllPurchaseDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllPurchaseDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseDetailController",
+    "Method": "GetPurchaseDetailById",
+    "RelativePath": "api/PurchaseDetail/GetPurchaseDetailById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetPurchaseDetailById"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.PurchaseDetailController",
+    "Method": "UpdatePurchaseDetail",
+    "RelativePath": "api/PurchaseDetail/UpdatePurchaseDetail/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "detailDto",
+        "Type": "StyleStock.common.DTOS.UpdatePurchaseDetailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdatePurchaseDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SaleController",
+    "Method": "AddSale",
+    "RelativePath": "api/Sale/AddSale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "saleDto",
+        "Type": "StyleStock.common.DTOS.CreateSaleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddSale"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SaleController",
+    "Method": "DeleteSale",
+    "RelativePath": "api/Sale/DeleteSale/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteSale"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SaleController",
+    "Method": "GetAllSale",
+    "RelativePath": "api/Sale/GetAllSale",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllSale"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SaleController",
+    "Method": "GetSaleById",
+    "RelativePath": "api/Sale/GetSaleById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetSaleById"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SaleController",
+    "Method": "UpdateSale",
+    "RelativePath": "api/Sale/UpdateSale/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "saleDto",
+        "Type": "StyleStock.common.DTOS.UpdateSaleDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateSale"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SalesDetailController",
+    "Method": "AddSaleDetail",
+    "RelativePath": "api/SalesDetail/AddSaleDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailDto",
+        "Type": "StyleStock.common.DTOS.CreateSalesDetailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "AddSaleDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SalesDetailController",
+    "Method": "DeleteSaleDetail",
+    "RelativePath": "api/SalesDetail/DeleteSaleDetail/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "DeleteSaleDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SalesDetailController",
+    "Method": "GetAllSalesDetail",
+    "RelativePath": "api/SalesDetail/GetAllSalesDetail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAllSalesDetail"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SalesDetailController",
+    "Method": "GetSalesDetailById",
+    "RelativePath": "api/SalesDetail/GetSalesDetailById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetSalesDetailById"
+  },
+  {
+    "ContainingType": "StyleStock.api.Controllers.SalesDetailController",
+    "Method": "UpdateSaleDetail",
+    "RelativePath": "api/SalesDetail/UpdateSaleDetail/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "detailDto",
+        "Type": "StyleStock.common.DTOS.UpdateSalesDetailDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "UpdateSaleDetail"
+  },
+  {
     "ContainingType": "StyleStock.api.Controllers.SupplierController",
     "Method": "AddSupplier",
     "RelativePath": "api/Supplier/AddSupplier/AddSupplier",

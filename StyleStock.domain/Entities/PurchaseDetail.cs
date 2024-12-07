@@ -6,8 +6,6 @@ namespace StyleStock.domain.Entities;
 
 public partial class PurchaseDetail:BaseEntity
 {
-    public int DetailId { get; set; }
-
     public int PurchaseId { get; set; }
 
     public int ProductId { get; set; }

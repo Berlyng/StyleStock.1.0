@@ -6,8 +6,6 @@ namespace StyleStock.domain.Entities;
 
 public partial class Purchase:BaseEntity
 {
-    public int PurchaseId { get; set; }
-
     public DateTime PurchaseDate { get; set; }
 
     public decimal TotalAmount { get; set; }
