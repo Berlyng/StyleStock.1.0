@@ -7,6 +7,9 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.web.runtimeconfig.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.web.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.web.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.common.dll
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.common.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.csproj.AssemblyReference.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.AssemblyInfoInputs.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.AssemblyInfo.cs
@@ -14,6 +17,7 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.RazorAssemblyInfo.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.RazorAssemblyInfo.cs
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.sourcelink.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\scopedcss\bundle\StyleStock.web.styles.css
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\scopedcss\projectbundle\StyleStock.web.bundle.scp.css
@@ -27,13 +31,9 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.StyleStock.web.props
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleSto.7677E078.Up2Date
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\refint\StyleStock.web.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.pdb
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.genruntimeconfig.cache
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\ref\StyleStock.web.dll
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.sourcelink.json
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.common.dll
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\bin\Debug\net8.0\StyleStock.common.pdb
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleStock.web.csproj.AssemblyReference.cache
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.web\obj\Debug\net8.0\StyleSto.7677E078.Up2Date

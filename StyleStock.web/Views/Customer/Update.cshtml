@@ -1,0 +1,42 @@
+﻿@using StyleStock.common.DTOS
+@model UpdateCustomerDTO
+@{
+    ViewData["Title"] = "Actualizar Cliente";
+}
+<div class="row">
+    <div class="col-md-8 col-sm-12">
+        <h2 class="text-center text-black">Actualizar Cliente</h2>
+        <form asp-controller="Customer" asp-action="Update" method="post">
+            <input type="hidden" asp-for="CustomerId" />
+
+            <div class="mb-2">
+                <label for="name" class="form-label">Nombre</label>
+                <input class="form-control" type="text" id="name" asp-for="FirstName" placeholder="Introduce tu nombre" required />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input class="form-control" type="text" id="lastName" asp-for="LastName" placeholder="Introduce tu apellido" required />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label for="email" class="form-label">Correo Electrónico</label>
+                <input class="form-control" type="email" id="email" asp-for="Email" placeholder="Introduce tu correo electrónico" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <label for="phone" class="form-label">Teléfono</label>
+                <input class="form-control" type="tel" id="phone" asp-for="Phone" placeholder="Introduce tu teléfono" required />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="mb-2">
+                <button class="btn btn-success" type="submit">Guardar</button>
+                <a class="btn btn-danger" asp-controller="Customer" asp-action="Index">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

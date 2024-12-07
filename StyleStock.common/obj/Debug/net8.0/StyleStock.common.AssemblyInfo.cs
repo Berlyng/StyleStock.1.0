@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StyleStock.common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1bca9dd105e1bca4f6abbe9974d689864f4f9d5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54e4a4272cf2fd8dc4c1c5653dcceb70a518074f")]
 [assembly: System.Reflection.AssemblyProductAttribute("StyleStock.common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StyleStock.common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

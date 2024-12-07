@@ -1,9 +1,3 @@
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.csproj.AssemblyReference.cache
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.AssemblyInfoInputs.cache
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.AssemblyInfo.cs
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.csproj.CoreCompileInputs.cache
-C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.sourcelink.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\Debug\net8.0\StyleStock.application.deps.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\Debug\net8.0\StyleStock.application.runtimeconfig.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\Debug\net8.0\StyleStock.application.dll
@@ -16,6 +10,12 @@ C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\De
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\Debug\net8.0\StyleStock.infrastructure.pdb
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\Debug\net8.0\StyleStock.domain.pdb
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\bin\Debug\net8.0\StyleStock.persistence.pdb
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.csproj.AssemblyReference.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.AssemblyInfoInputs.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.AssemblyInfo.cs
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.sourcelink.json
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleSto.E6F767D6.Up2Date
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\StyleStock.application.dll
 C:\Users\Administrador\source\repos\StyleStock.1.1\StyleStock.application\obj\Debug\net8.0\refint\StyleStock.application.dll
