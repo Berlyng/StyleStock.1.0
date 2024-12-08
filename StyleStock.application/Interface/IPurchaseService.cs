@@ -11,7 +11,7 @@ namespace StyleStock.application.Interface
 	{
 		Task<PurchaseDTO> GetPurchaseByIdAsync(int id);
 		Task<IEnumerable<PurchaseDTO>> GetAllPurchaseAsync();
-		Task AddPurchaseAsycn(CreatePurchaseDTO purchase);
+		Task AddPurchaseAsync(CreatePurchaseDTO purchase);
 		Task UpdatePurchaseAsync(int id, UpdatePurchaseDTO purchaseDTO);
 		Task DeletePurchaseAsync(int id);
 	}

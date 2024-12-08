@@ -1,16 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace StyleStock.common.DTOS
 {
 	public class UpdatePurchaseDTO
 	{
+		[JsonIgnore]
+		public int PurchaseId { get; set; }
+
 		public DateTime PurchaseDate { get; set; }
+		[Required]
 		public int SupplierId { get; set; }
+
 		public int UserId { get; set; }
-		public List<UpdatePurchaseDetailDTO> Details { get; set; } = new List<UpdatePurchaseDetailDTO>();
+
+		public List<CreatePurchaseDetailDTO> PurchaseDetails { get; set; } = new List<CreatePurchaseDetailDTO>();
+
+		public decimal TotalAmount => PurchaseDetails.Sum(d => d.SubTotal) * 1.18m; // Calcula el total con impuesto
 	}
 }

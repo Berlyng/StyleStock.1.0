@@ -1,0 +1,57 @@
+﻿@using StyleStock.common.DTOS
+@model IEnumerable<UserDTO>
+@{
+	ViewData["Title"] = "Lista de Usuarios";
+	ViewData["ActiveMenu"] = "Customer";
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+	<div class="alert alert-danger">
+		@ViewBag.ErrorMessage
+	</div>
+}
+
+<div class="row justify-content-center">
+	<main class="col-10">
+		<h1 class="text-black text-center mb-4">Lista de usuarios</h1>
+		<a class="btn btn-primary mb-3" asp-controller="User" asp-action="Create">Nuevo Usuarios</a>
+		<div class="table-responsive">
+			<table class="table table-bordered text-center">
+				<thead class="thead-light">
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Nombre de usuario</th>
+						<th scope="col">Apellido</th>
+						<th scope="col">Correo Electronico</th>
+						<th scope="col">Rol</th>
+						<th scope="col">Acciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@item.UserId</td>
+							<td>@item.FirstName</td>
+							<td>@item.LastName</td>
+							<td>@item.Email</td>
+							<td>@item.Role</td>
+							<td>
+								<a asp-controller="User"
+								   asp-action="Update"
+								   asp-route-id="@item.UserId"
+								   class="btn btn-success me-2">Editar</a>
+								<a asp-controller="User"
+								   asp-action="Delete"
+								   asp-route-id="@item.UserId"
+								   class="btn btn-danger">Eliminar</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</main>
+
+</div>

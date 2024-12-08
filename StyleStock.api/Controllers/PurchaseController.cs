@@ -51,7 +51,7 @@ namespace StyleStock.api.Controllers
 		{
 			try
 			{
-				await _purchaseService.AddPurchaseAsycn(purchaseDto);
+				await _purchaseService.AddPurchaseAsync(purchaseDto);
 				return Ok(new { Message = "Pedido creado exitosamente", Data = purchaseDto });
 			}
 			catch (Exception ex)

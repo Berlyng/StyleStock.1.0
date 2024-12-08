@@ -59,6 +59,7 @@ namespace StyleStock.web.Controllers
 				}
 
 			}
+
 			[HttpGet]
 			public async Task<IActionResult> Update(int id)
 			{

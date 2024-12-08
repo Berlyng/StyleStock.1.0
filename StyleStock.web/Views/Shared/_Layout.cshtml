@@ -47,7 +47,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link @(ViewData["ActiveMenu"] == "Customer" ? "active" : "")" asp-controller="Category" asp-action="Index">
+                            <a class="nav-link @(ViewData["ActiveMenu"] == "Category" ? "active" : "")" asp-controller="Category" asp-action="Index">
                                 <i class="bi bi-list"></i> Categorías
                             </a>
                         </li>
@@ -59,6 +59,18 @@
                         <li class="nav-item">
                             <a class="nav-link @(ViewData["ActiveMenu"] == "Product" ? "active" : "")" asp-controller="Products" asp-action="Index">
                                 <i class="bi bi-box"></i> Productos
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewData["ActiveMenu"] == "Supplier" ? "active" : "")" asp-controller="Supplier" asp-action="Index">
+                                <i class="bi bi-truck"></i> Suplidores
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link @(ViewData["ActiveMenu"] == "User" ? "active" : "")" asp-controller="User" asp-action="Index">
+                                <i class="bi bi-people"></i> Usuarios
                             </a>
                         </li>
                     </ul>

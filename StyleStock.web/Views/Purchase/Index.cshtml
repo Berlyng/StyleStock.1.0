@@ -1,0 +1,48 @@
+﻿@using StyleStock.common.DTOS
+@model IEnumerable<PurchaseDTO>
+
+@{
+	ViewData["Title"] = "Listado de Compras";
+}
+
+<h1>Listado de Compras</h1>
+
+@if (TempData["SuccessMessage"] != null)
+{
+	<div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+	<div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>Proveedor</th>
+			<th>Fecha de Compra</th>
+			<th>Total</th>
+			<th>Acciones</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var purchase in Model)
+		{
+			<tr>
+				<td>@purchase.SupplierName</td>
+				<td>@purchase.PurchaseDate.ToShortDateString()</td>
+				<td>@purchase.TotalAmount</td>
+				<td>
+					<a asp-action="Details" asp-route-id="@purchase.PurchaseId" class="btn btn-info">Ver</a>
+					<a asp-action="Update" asp-route-id="@purchase.PurchaseId" class="btn btn-warning">Editar</a>
+					<form method="post" asp-action="Delete" asp-route-id="@purchase.PurchaseId" style="display:inline;" onsubmit="return confirm('¿Está seguro de eliminar esta compra?');">
+						<button type="submit" class="btn btn-danger">Eliminar</button>
+					</form>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Nueva Compra</a>

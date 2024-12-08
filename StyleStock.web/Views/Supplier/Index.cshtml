@@ -1,0 +1,57 @@
+﻿@using StyleStock.common.DTOS
+@model IEnumerable<SupplierDTO>
+@{
+	ViewData["Title"] = "Lista de Suplidores";
+	ViewData["ActiveMenu"] = "Customer";
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+	<div class="alert alert-danger">
+		@ViewBag.ErrorMessage
+	</div>
+}
+
+<div class="row justify-content-center">
+	<main class="col-10">
+		<h1 class="text-black text-center mb-4">Lista de Suplidores</h1>
+		<a class="btn btn-primary mb-3" asp-controller="Supplier" asp-action="Create">Nuevo Suplidor</a>
+		<div class="table-responsive">
+			<table class="table table-bordered text-center">
+				<thead class="thead-light">
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Nombre De suplidor</th>
+						<th scope="col">Telefono</th>
+						<th scope="col">Correo Electronico</th>
+						<th scope="col">Direccion</th>
+						<th scope="col">Acciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@item.SupplierId</td>
+							<td>@item.Name</td>
+							<td>@item.Phone</td>
+							<td>@item.Email</td>
+							<td>@item.Adress</td>
+							<td>
+								<a asp-controller="Supplier"
+								   asp-action="Update"
+								   asp-route-id="@item.SupplierId"
+								   class="btn btn-success me-2">Editar</a>
+								<a asp-controller="Supplier"
+								   asp-action="Delete"
+								   asp-route-id="@item.SupplierId"
+								   class="btn btn-danger">Eliminar</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</main>
+
+</div>

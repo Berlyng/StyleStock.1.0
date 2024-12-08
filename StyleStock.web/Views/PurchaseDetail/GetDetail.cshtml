@@ -1,0 +1,48 @@
+﻿@using StyleStock.common.DTOS
+@model List<PurchaseDetailDTO>
+
+@{
+    ViewData["Title"] = "Detalles del Pedido";
+}
+
+<h1>Detalles del Pedido</h1>
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Información de la Compra</h4>
+        <p><strong>ID del Pedido:</strong> @ViewData["PurchaseId"]</p>
+        <p><strong>Suplidor:</strong> @ViewData["SupplierName"]</p>
+        <p><strong>Fecha:</strong> @((DateTime)ViewData["PurchaseDate"])</p>
+    </div>
+</div>
+
+<h4>Detalles de Productos</h4>
+@if (Model != null && Model.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Precio Unitario</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var detail in Model)
+            {
+                <tr>
+                    <td>@detail.ProductName</td>
+                    <td>@detail.Quantity</td>
+                    <td>@detail.UnitPrice.ToString("C")</td>
+                    <td>@(detail.Quantity * detail.UnitPrice).ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay detalles de productos para esta compra.</p>
+}
+

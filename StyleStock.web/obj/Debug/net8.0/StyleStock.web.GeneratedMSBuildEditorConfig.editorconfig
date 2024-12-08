@@ -64,12 +64,60 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/PurchaseDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VEZXRhaWxcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/PurchaseDetail/GetDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VEZXRhaWxcR2V0RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/PurchaseDetail/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VEZXRhaWxcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Purchase/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Purchase/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Purchase/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/Supplier/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VwcGxpZXJcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Administrador/source/repos/StyleStock.1.1/StyleStock.web/Views/_ViewImports.cshtml]

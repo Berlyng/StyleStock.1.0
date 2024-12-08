@@ -10,9 +10,12 @@ namespace StyleStock.common.DTOS
 	{
 		public int PurchaseId { get; set; }
 		public DateTime PurchaseDate { get; set; }
+		public string SupplierName { get; set; }
 		public decimal TotalAmount { get; set; }
 		public int SupplierId { get; set; }
 		public int UserId { get; set; }
+
+		public List<PurchaseDetailDTO> PurchaseDetails { get; set; } = new List<PurchaseDetailDTO>();
 
 	}
 

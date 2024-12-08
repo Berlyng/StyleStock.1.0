@@ -1,0 +1,54 @@
+﻿@using StyleStock.common.DTOS
+
+@model CreateUserDTO
+@{
+	ViewData["Title"] = "Crear Usuario";
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+	<div class="alert alert-danger">
+		@ViewBag.ErrorMessage
+	</div>
+}
+
+<div class="row">
+	<div class="col-8">
+		<h2 class="text-center text-black">Crear Usuario</h2>
+		<form asp-controller="User" asp-action="Create" method="post">
+
+			<div class="mb-2">
+				<label for="name" class="form-label">Nombre de Usuario</label>
+				<input class="form-control" type="text" id="name" asp-for="FirstName" placeholder="Name" required />
+			</div>
+
+			<div class="mb-2">
+				<label for="LastName" class="form-label">Apellido</label>
+				<input class="form-control" type="text" id="LastName" asp-for="LastName" placeholder="LastName" required />
+			</div>
+
+			<div class="mb-2">
+				<label for="Email" class="form-label">Correo Electronico</label>
+				<input class="form-control" type="email" id="Email" asp-for="Email" placeholder="Email" required />
+			</div>
+
+			<div class="mb-2">
+				<label for="passdword" class="form-label">Contraseña</label>
+				<input class="form-control" type="password" id="passdword" asp-for="PasswordHash" placeholder="Password" required />
+			</div>
+
+			<div class="mb-2">
+				<label for="role" class="form-label">Role</label>
+				<select class="form-control" id="role" asp-for="Role" asp-items="ViewBag.Roles" required>
+				</select>
+				<span asp-validation-for="Role" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<button class="btn btn-success" type="submit">Guardar</button>
+				<a class="btn btn-danger" asp-controller="User" asp-action="index">Cancelar</a>
+			</div>
+		</form>
+	</div>
+
+</div>

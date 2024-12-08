@@ -37,6 +37,8 @@ namespace StyleStock.web.Controllers
 					var category = categories.FirstOrDefault(c => c.CategoryId == product.CategoryId);
 					product.CategoryName = category?.Name ?? "Categoría no encontrada";
 					return product;
+
+
 				});
 
 				return View(productsWithCategoryNames);
@@ -86,7 +88,7 @@ namespace StyleStock.web.Controllers
 			try
 			{
 
-				var response = await _client.PostAsJsonAsync("https://localhost:7237/api/api/Product/AddProducts", newProduct);
+				var response = await _client.PostAsJsonAsync("https://localhost:7237/api/Product/AddProduct", newProduct);
 				if (response.IsSuccessStatusCode)
 				{
 					return RedirectToAction("Index");

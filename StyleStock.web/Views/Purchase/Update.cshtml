@@ -1,0 +1,27 @@
+﻿@using StyleStock.common.DTOS
+@model UpdatePurchaseDTO
+
+@{
+    ViewData["Title"] = "Actualizar Compra";
+}
+
+<h1>Actualizar Compra</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="SupplierId">Proveedor</label>
+        <select class="form-control" asp-for="SupplierId" asp-items="ViewBag.Suppliers" required>
+            <option value="">Seleccione un proveedor</option>
+        </select>
+        <span asp-validation-for="SupplierId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="PurchaseDate">Fecha de Compra</label>
+        <input type="date" class="form-control" asp-for="PurchaseDate" required />
+        <span asp-validation-for="PurchaseDate" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-warning">Actualizar Compra</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

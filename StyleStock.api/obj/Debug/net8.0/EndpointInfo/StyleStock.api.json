@@ -1355,8 +1355,7 @@
       },
       "CreatePurchaseDTO": {
         "required": [
-          "supplierId",
-          "userId"
+          "supplierId"
         ],
         "type": "object",
         "properties": {
@@ -1371,21 +1370,28 @@
           "userId": {
             "type": "integer",
             "format": "int32"
+          },
+          "purchaseDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CreatePurchaseDetailDTO"
+            },
+            "nullable": true
+          },
+          "totalAmount": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
           }
         },
         "additionalProperties": false
       },
       "CreatePurchaseDetailDTO": {
         "required": [
-          "productId",
-          "purchaseId"
+          "productId"
         ],
         "type": "object",
         "properties": {
-          "purchaseId": {
-            "type": "integer",
-            "format": "int32"
-          },
           "productId": {
             "type": "integer",
             "format": "int32"
@@ -1397,6 +1403,11 @@
           "unitPrice": {
             "type": "number",
             "format": "double"
+          },
+          "subTotal": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
           }
         },
         "additionalProperties": false
@@ -1580,6 +1591,9 @@
         "additionalProperties": false
       },
       "UpdatePurchaseDTO": {
+        "required": [
+          "supplierId"
+        ],
         "type": "object",
         "properties": {
           "purchaseDate": {
@@ -1594,12 +1608,17 @@
             "type": "integer",
             "format": "int32"
           },
-          "details": {
+          "purchaseDetails": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/UpdatePurchaseDetailDTO"
+              "$ref": "#/components/schemas/CreatePurchaseDetailDTO"
             },
             "nullable": true
+          },
+          "totalAmount": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
           }
         },
         "additionalProperties": false
@@ -1677,6 +1696,10 @@
       "UpdateSupplierDTO": {
         "type": "object",
         "properties": {
+          "supplierId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "name": {
             "type": "string",
             "nullable": true
@@ -1699,6 +1722,10 @@
       "UpdateUserDTO": {
         "type": "object",
         "properties": {
+          "userId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "firstName": {
             "type": "string",
             "nullable": true
