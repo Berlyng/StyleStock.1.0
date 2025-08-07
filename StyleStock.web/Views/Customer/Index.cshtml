@@ -1,0 +1,54 @@
+﻿@using StyleStock.domain.DTOS
+
+@model IEnumerable<CustomerDTO>
+@{
+	ViewData["Title"] = "Lista de clientes";
+	ViewData["ActiveMenu"] = "Customer";
+}
+
+
+
+<div class="row justify-content-center">
+	<div class="col-10">
+		<h1 class="text-black text-center">Lista de Clientes</h1>
+		<a class="btn btn-primary mb-3" asp-controller="Customer" asp-action="Create">Registrar Cliente</a>
+		<table class="table table-bordered">
+			<thead>
+				<tr>
+					<th scope="col">ID</th>
+					<th scope="col">Nombre</th>
+					<th scope="col">Apellido</th>
+					<th scope="col">Email</th>
+					<th scope="col">Telefono</th>
+					<th scope="col">Acciones</th>
+				</tr>
+			</thead>
+			@foreach (var item in Model)
+			{
+				<tbody>
+					<tr>
+						<td>@item.CustomerId</td>
+						<td>@item.FirstName</td>
+						<td>@item.LastName</td>
+						<td>@item.Email</td>
+						<td>@item.Phone</td>
+
+						<td>
+							<a asp-controller="Customer"
+							   asp-action="Update"
+							   asp-route-id="@item.CustomerId"
+							   class="btn btn-success mb-3">Editar</a>
+	
+							<a asp-controller="Customer"
+							   asp-action="Delete"
+							   asp-route-id="@item.CustomerId"
+							   class="btn btn-danger mb-3">Eliminar</a>
+						</td>
+					</tr>
+				</tbody>
+
+			}
+		</table>
+	</div>
+</div>
+

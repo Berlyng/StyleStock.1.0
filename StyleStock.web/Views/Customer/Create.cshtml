@@ -1,0 +1,44 @@
+﻿@using StyleStock.domain.DTOS
+@model CreateCustomerDTO
+@{
+	ViewData["Title"] = "Crear Cliente";
+}
+
+
+<div class="row">
+	<div class="col-8">
+		<h2 class="text-center text-black">Crear Categoria</h2>
+		<form asp-controller="Customer" asp-action="Create" method="post">
+
+			<div class="mb-2">
+				<label for="name" class="form-label">Nombre</label>
+				<input class="form-control" type="text" id="name" asp-for="FirstName" placeholder="Nombre" required />
+				<span asp-validation-for="FirstName" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="LastName" class="form-label">Apellido</label>
+				<input class="form-control" type="text" id="LastName" asp-for="LastName" placeholder="Apellido" required />
+				<span asp-validation-for="LastName" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="email" class="form-label">Correo Electronico</label>
+				<input class="form-control" type="email" id="email" asp-for="Email" placeholder="Email" required />
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="phone" class="form-label">Telefono</label>
+				<input class="form-control" type="tel" id="LastName" asp-for="Phone" placeholder="Telefono" required />
+				<span asp-validation-for="Phone" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<button class="btn btn-success" type="submit">Guardar</button>
+				<a class="btn btn-danger" asp-controller="Customer" asp-action="index">Cancelar</a>
+			</div>
+		</form>
+	</div>
+
+</div>

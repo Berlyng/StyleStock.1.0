@@ -1,0 +1,70 @@
+﻿@using StyleStock.domain.DTOS
+@model CreateProductDTO
+@{
+	ViewData["Title"] = "Crear Cliente";
+}
+
+<div class="row">
+	<div class="col-8">
+		<h2 class="text-center text-black">Agregar Producto</h2>
+		<form asp-controller="Products" asp-action="Create" method="post">
+
+			<div class="mb-2">
+				<label for="name" class="form-label">Nombre</label>
+				<input class="form-control" type="text" id="name" asp-for="Name" placeholder="Nombre de Producto" required />
+				<span asp-validation-for="Name" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="description" class="form-label">Descripción</label>
+				<input class="form-control" type="text" id="description" asp-for="Description" placeholder="Descripción de producto" required />
+				<span asp-validation-for="Description" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="price" class="form-label">Precio</label>
+				<input class="form-control" type="number" id="price" asp-for="Price" placeholder="Precio" step="0.01" min="0" required />
+				<span asp-validation-for="Price" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="size" class="form-label">Tamaño</label>
+				<input class="form-control" type="text" id="size" asp-for="Size" placeholder="Tamaño" required />
+				<span asp-validation-for="Size" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="color" class="form-label">Color</label>
+				<input class="form-control" type="text" id="color" asp-for="Color" placeholder="Color" required />
+				<span asp-validation-for="Color" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="categoryId" class="form-label">Categoría</label>
+				<select class="form-control" asp-for="CategoryId" asp-items="ViewBag.Categories" required>
+
+				</select>
+				<span asp-validation-for="CategoryId" class="text-danger"></span>
+			</div>
+
+
+			<div class="mb-2">
+				<label for="stockQuantity" class="form-label">Cantidad en Stock</label>
+				<input class="form-control" type="number" id="stockQuantity" asp-for="StockQuantity" placeholder="Cantidad disponible" min="0" required />
+				<span asp-validation-for="StockQuantity" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<label for="entryDate" class="form-label">Fecha de Registro</label>
+				<input class="form-control" type="date" id="entryDate" asp-for="EntryDate" required />
+				<span asp-validation-for="EntryDate" class="text-danger"></span>
+			</div>
+
+			<div class="mb-2">
+				<button class="btn btn-success" type="submit">Guardar</button>
+				<a class="btn btn-danger" asp-controller="Products" asp-action="Index">Cancelar</a>
+			</div>
+		</form>
+
+	</div>
+</div>

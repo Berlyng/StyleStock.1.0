@@ -1,0 +1,76 @@
+﻿@using StyleStock.domain.DTOS
+
+@model CreateCategoryDTO
+@{
+	ViewData["Title"] = "Crear Categoria";
+}
+
+@if (ViewBag.ErrorMessage != null)
+{
+	<div class="alert alert-danger">
+		@ViewBag.ErrorMessage
+	</div>
+}
+
+<div class="row">
+	<div class="col-8">
+		<h2 class="text-center text-black">Crear Categoria</h2>
+		<form asp-controller="Category" asp-action="Create" method="post">
+
+			<div class="mb-2">
+				<label for="name" class="form-label">Nombre de Categoria</label>
+				<input class="form-control" type="text" id="Name" asp-for="Name" placeholder="Name" required />
+				<span id="nameError" class="text-danger d-none">El nombre es requerido</span>
+			</div>
+
+			<div class="mb-2">
+				<label for="description" class="form-label">Descripcion</label>
+				<input class="form-control" type="text" id="Description" asp-for="Description" placeholder="Description" required />
+				<span id="descError" class="text-danger d-none">La descripción es requerida</span>
+			</div>
+
+			<div class="mb-2">
+				<button class="btn btn-success" type="submit">Guardar</button>
+				<a class="btn btn-danger" asp-controller="Category" asp-action="index">Cancelar</a>
+			</div>
+		</form>
+	</div>
+
+</div>
+
+
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('form');
+            form.addEventListener('submit', function(e) {
+                let isValid = true;
+
+                // Validar nombre
+                const name = document.getElementById('Name');
+                const nameError = document.getElementById('nameError');
+                if (!name.value) {
+                    nameError.classList.remove('d-none');
+                    isValid = false;
+                } else {
+                    nameError.classList.add('d-none');
+                }
+
+                // Validar descripción
+                const desc = document.getElementById('Description');
+                const descError = document.getElementById('descError');
+                if (!desc.value) {
+                    descError.classList.remove('d-none');
+                    isValid = false;
+                } else {
+                    descError.classList.add('d-none');
+                }
+
+                if (!isValid) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
+}

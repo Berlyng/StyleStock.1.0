@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "StyleStock.api\\StyleStock.api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "StyleStock.web\\StyleStock.web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

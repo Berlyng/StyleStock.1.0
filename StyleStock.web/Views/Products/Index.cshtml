@@ -1,0 +1,58 @@
+﻿@using StyleStock.domain.DTOS
+@model List<ProductDTO>
+@{
+	ViewData["Title"] = "Lista de Categorias";
+	ViewData["ActiveMenu"] = "Product";
+}
+
+<div class="row justify-content-center">
+	<main class="col-10">
+		<h1 class="text-black text-center mb-4">Lista de Productos</h1>
+		<a class="btn btn-primary mb-3" asp-controller="Products" asp-action="Create">Nuevo Producto</a>
+		<div class="table-responsive">
+			<table class="table table-bordered text-center">
+				<thead class="thead-light">
+					<tr>
+						<th scope="col">ID</th>
+						<th scope="col">Nombre de Producto</th>
+						<th scope="col">Descripcion</th>
+						<th scope="col">Precio</th>
+						<th scope="col">Size</th>
+						<th scope="col">Color</th>
+						<th scope="col">Categoria</th>
+						<th scope="col">Cantidad disponible</th>
+						<th scope="col">Fecha de entrada</th>
+						<th scope="col">Acciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var item in Model)
+					{
+						<tr>
+							<td>@item.ProductId</td>
+							<td>@item.Name</td>
+							<td>@item.Description</td>
+							<td>@item.Price</td>
+							<td>@item.Size</td>
+							<td>@item.Color</td>
+							<td>@item.CategoryName</td>
+							<td>@item.StockQuantity</td>
+							<td>@item.EntryDate</td>
+							<td>
+								<a asp-controller="Category"
+								   asp-action="Update"
+								   asp-route-id="@item.CategoryId"
+								   class="btn btn-success me-2">Editar</a>
+								<a asp-controller="Category"
+								   asp-action="Delete"
+								   asp-route-id="@item.CategoryId"
+								   class="btn btn-danger">Eliminar</a>
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		</div>
+	</main>
+
+</div>
