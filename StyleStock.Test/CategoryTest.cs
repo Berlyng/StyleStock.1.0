@@ -1,9 +1,11 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using AventStack.ExtentReports;
+using AventStack.ExtentReports.Reporter;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Threading;
+using System.IO;
 
 namespace StyleStock.Tests
 {
@@ -14,6 +16,17 @@ namespace StyleStock.Tests
         private WebDriverWait wait;
         private string baseUrl = "http://localhost:5161";
 
+        private static ExtentReports extent;
+        private ExtentTest test;
+
+        [ClassInitialize]
+        public static void ReportInit(TestContext context)
+        {
+            var reporter = new ExtentSparkReporter("Reporte_Categorias.html");
+            extent = new ExtentReports();
+            extent.AttachReporter(reporter);
+        }
+
         [TestInitialize]
         public void Setup()
         {
@@ -22,94 +35,168 @@ namespace StyleStock.Tests
 
             driver = new ChromeDriver(options);
             driver.Manage().Window.Maximize();
-
-            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(5));
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
 
         [TestMethod]
         public void CrearCategoria_CaminoFeliz()
         {
-            driver.Navigate().GoToUrl($"{baseUrl}/Category/Create");
+            test = extent.CreateTest("CrearCategoria_CaminoFeliz");
 
-            wait.Until(d => d.FindElement(By.Id("Name"))).SendKeys("Zapatos");
-            driver.FindElement(By.Id("Description")).SendKeys("Calzado en general");
+            try
+            {
+                driver.Navigate().GoToUrl($"{baseUrl}/Category/Create");
 
-            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+                wait.Until(d => d.FindElement(By.Id("Name"))).SendKeys("Jeans");
+                driver.FindElement(By.Id("Description")).SendKeys("Ropa en general");
 
-            Assert.IsTrue(driver.Url.Contains("/Category"));
+                driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+                Assert.IsTrue(driver.Url.Contains("/Category"));
+                test.Pass("Categoría creada correctamente.");
+            }
+            catch (Exception ex)
+            {
+                CapturarError(test, ex);
+                throw;
+            }
         }
 
         [TestMethod]
         public void CrearCategoria_ValidacionCamposVacios()
         {
-            var longWait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            test = extent.CreateTest("CrearCategoria_ValidacionCamposVacios");
 
-            // 1. Ir a la página de creación
-            driver.Navigate().GoToUrl($"{baseUrl}/Category/Create");
+            try
+            {
+                driver.Navigate().GoToUrl($"{baseUrl}/Category/Create");
 
-            // 2. Enviar formulario vacío
-            longWait.Until(d => d.FindElement(By.CssSelector("button[type='submit']"))).Click();
+                wait.Until(d => d.FindElement(By.CssSelector("button[type='submit']"))).Click();
 
-            // 3. Verificar que permanece en la misma página
-            Assert.IsTrue(longWait.Until(d => d.Url.EndsWith("/Category/Create")),
-                        "Se redireccionó incorrectamente");
+                Assert.IsTrue(driver.Url.EndsWith("/Category/Create"));
 
-            // 4. Verificar estado de validación via JavaScript
-            var nameField = driver.FindElement(By.Id("Name"));
-            bool isNameValid = (bool)((IJavaScriptExecutor)driver)
-                .ExecuteScript("return arguments[0].checkValidity();", nameField);
+                var nameField = driver.FindElement(By.Id("Name"));
+                bool isNameValid = (bool)((IJavaScriptExecutor)driver)
+                    .ExecuteScript("return arguments[0].checkValidity();", nameField);
 
-            Assert.IsFalse(isNameValid, "El campo Name no mostró validación");
+                Assert.IsFalse(isNameValid);
+                test.Pass("Validación de campos vacíos funciona correctamente.");
+            }
+            catch (Exception ex)
+            {
+                CapturarError(test, ex);
+                throw;
+            }
         }
 
         [TestMethod]
         public void EditarCategoria_Existente()
         {
-            int idCategoria = 1; // Cambia según un ID válido en tu base de datos
+            test = extent.CreateTest("EditarCategoria_Existente");
 
-            driver.Navigate().GoToUrl($"{baseUrl}/Category/Update/{idCategoria}");
+            try
+            {
+                int idCategoria = 1; // Asegúrate de que este ID exista
+                driver.Navigate().GoToUrl($"{baseUrl}/Category/Update/{idCategoria}");
 
-            var nombre = wait.Until(d => d.FindElement(By.Id("Name")));
-            nombre.Clear();
-            nombre.SendKeys("Ropa Deportiva");
+                var nombre = wait.Until(d => d.FindElement(By.Id("Name")));
+                nombre.Clear();
+                nombre.SendKeys("Ropa Deportiva");
 
-            var descripcion = driver.FindElement(By.Id("Description"));
-            descripcion.Clear();
-            descripcion.SendKeys("Ropa para ejercicios y deportes");
+                var descripcion = driver.FindElement(By.Id("Description"));
+                descripcion.Clear();
+                descripcion.SendKeys("Ropa para ejercicios y deportes");
 
-            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+                driver.FindElement(By.CssSelector("button[type='submit']")).Click();
 
-            Assert.IsTrue(driver.Url.Contains("/Category"));
+                Assert.IsTrue(driver.Url.Contains("/Category"));
+                test.Pass("Categoría editada correctamente.");
+            }
+            catch (Exception ex)
+            {
+                CapturarError(test, ex);
+                throw;
+            }
         }
 
         [TestMethod]
         public void EliminarCategoria()
         {
-            driver.Navigate().GoToUrl($"{baseUrl}/Category");
+            test = extent.CreateTest("EliminarCategoria");
 
-            // Buscar botón de eliminar (puedes usar el texto del botón o clase específica)
-            var eliminar = wait.Until(d => d.FindElement(By.LinkText("Eliminar")));
-            eliminar.Click();
+            try
+            {
+                driver.Navigate().GoToUrl($"{baseUrl}/Category");
 
-            // Confirmar redirección al listado
-            Assert.IsTrue(driver.Url.Contains("/Category"));
+                var eliminar = wait.Until(d => d.FindElement(By.LinkText("Eliminar")));
+                eliminar.Click();
+
+                Assert.IsTrue(driver.Url.Contains("/Category"));
+                test.Pass("Categoría eliminada correctamente.");
+            }
+            catch (Exception ex)
+            {
+                CapturarError(test, ex);
+                throw;
+            }
         }
 
         [TestMethod]
         public void VerListadoCategorias()
         {
-            driver.Navigate().GoToUrl($"{baseUrl}/Category");
+            test = extent.CreateTest("VerListadoCategorias");
 
-            var listado = wait.Until(d => d.FindElements(By.TagName("tr")).Count > 1); // hay al menos una categoría listada
+            try
+            {
+                driver.Navigate().GoToUrl($"{baseUrl}/Category");
 
-            Assert.IsTrue(listado);
+                var listado = wait.Until(d => d.FindElements(By.TagName("tr")).Count > 1);
+                Assert.IsTrue(listado);
+                test.Pass("Listado de categorías visible correctamente.");
+            }
+            catch (Exception ex)
+            {
+                CapturarError(test, ex);
+                throw;
+            }
         }
 
         [TestCleanup]
         public void Cleanup()
         {
-            if (driver != null)
-                driver.Quit();
+            driver.Quit();
+        }
+
+        [ClassCleanup]
+        public static void EndReport()
+        {
+            extent.Flush();
+        }
+
+        // Método común para capturar errores y guardar pantallazo
+        private void CapturarError(ExtentTest test, Exception ex)
+        {
+            try
+            {
+                string timestamp = DateTime.Now.ToString("yyyyMMddHHmmss");
+                string path = $"screenshot_{timestamp}.png";
+
+                var screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+
+                // Opción 1: Usando File.WriteAllBytes (más compatible)
+                File.WriteAllBytes(path, screenshot.AsByteArray);
+
+                // Opción 2: Si prefieres usar SaveAsFile con formato explícito
+                // screenshot.SaveAsFile(path, ScreenshotImageFormat.Png);
+
+                test.Fail("Error: " + ex.Message)
+                    .AddScreenCaptureFromPath(path);
+            }
+            catch (Exception screenshotEx)
+            {
+                // Si falla la captura de pantalla, al menos registrar el error original
+                test.Fail("Error: " + ex.Message + " (No se pudo capturar screenshot: " + screenshotEx.Message + ")");
+            }
         }
     }
 }

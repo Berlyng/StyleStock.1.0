@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "MSTest": {
               "target": "Package",
               "version": "[3.6.4, )"
